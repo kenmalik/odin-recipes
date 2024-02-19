@@ -6,6 +6,7 @@
   min-height: 400px;
   margin: 20px 2%;
   padding: 20px;
+  border-radius: 30px;
 }
 
 .card h2 {
@@ -15,6 +16,7 @@
 .card img {
   border: none;
   width: 100%;
+  border-radius: 20px;
 }
 
 .card:hover {
