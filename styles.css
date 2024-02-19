@@ -1,7 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: wheat;
+    background-color: #272c36;
+    color: blanchedalmond;
     font-size: 20px;
+}
+
+.recipe {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .centered {
@@ -9,19 +19,45 @@ body {
 }
 
 #title {
-    font-size: 48px;
-    background-color: blanchedalmond;
+    font-size: 2.5em;
+    background-color: #282830;
+    padding: 12px 0 24px;
+    margin: 0 auto 24px;
 }
 
 .disclaimer {
     font-style: italic;
-    font-size: 16px;
+    font-size: 0.8em;
+}
+
+ul,
+ol {
+    margin: 4px 0 16px;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 1.5em;
+    color: darksalmon;
 }
 
-h3 {
-    font-size: 28px;
+h4 {
+    margin: 8px 0 0;
+}
+
+a:link {
+    color: wheat;
+}
+
+a:visited {
+    color: darksalmon;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+
+img {
+    border: #282830 solid 24px;
+    display: block;
+    margin: 0 auto;
 }

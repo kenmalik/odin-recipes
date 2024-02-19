@@ -1,0 +1,22 @@
+.card {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #282830;
+  width: 45%;
+  min-height: 400px;
+  margin: 20px 2%;
+  padding: 20px;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card img {
+  border: none;
+  width: 100%;
+}
+
+.card:hover {
+  background-color: dimgray;
+}
